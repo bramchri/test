@@ -1,0 +1,14 @@
+{
+    "name": "UtahScraper",
+    "manifest_version": 2,
+    "version": "0.3",
+    "author": {"name": "NordSoft"},
+    "devtools_page": "devtools.html",
+    "background":{"scripts":["background.js"]},
+    "icons": {"128": "lighthouse.png" },
+    "browser_action": {
+        "default_popup": "devtools.html",
+        "default_icon": "lighthouse.png"
+    },
+    "description": "Extension to intercept all responses from the site: mycash.utah.gov"
+}
